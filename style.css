@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 img{
     width:100%;
@@ -36,7 +37,7 @@ section{
     font-style: italic;
 }
 .details{
-margin-top: 50px;
+    margin-top: 50px;
 }
 .details h1{
     font-size: 50px;
@@ -47,8 +48,8 @@ margin-top: 50px;
     margin-top:30px;
     line-height: 1.5;
     font-size: 18px;
-color:#7A7A7A;
-text-align: justify;
+    color:#7A7A7A;
+    text-align: justify;
 }
  .link{
     background-image: linear-gradient(45deg, #ee71ab, #eb4F90);
@@ -59,7 +60,8 @@ text-align: justify;
     border-radius: 5px;
     position: absolute;
 }
-/*....section two....*/
+
+/*....biography section....*/
 .half-width-bio{
     float:right;
     width:50%;
@@ -78,7 +80,7 @@ text-align: justify;
     background-size: cover;
   
 }
-
+/*....work section....*/
 .work-section{
     height:430px;
 }
@@ -95,14 +97,15 @@ text-align: justify;
 .work-image img:first-child{
     margin-left: none;
 }
+/*....client section....*/
 .client-section{
     background-image: url('images/footer-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 470px;
+  
 }
 .client{
-    width:500px;
+    width:750px;
     margin: 0 auto;
     
 }
@@ -110,35 +113,81 @@ text-align: justify;
     color: #7a7a7a;
     text-align: center;
     font-size: 14px;
-    margin-top: 0;
+    margin-top: 10px;
 }
 .client-p{
     text-align: center;
-    margin: 25px 0;
+    margin: 35px 0;
     color: rgb(59, 54, 54);
 }
 .client h4{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color:orange;
 }
 .pink{
     background-image: linear-gradient(45deg, #ee71ab, #eb4F90);
     color:#fff;
-    padding: 50px 70px;
+    padding: 50px 100px;
     text-align: center;
     border-radius: 5px;
+  
 }
 .pink .button{
     text-decoration: none;
     color:#fff;
     font-size: 17px;
+    margin-top: 20px;
+    display: block;
 }
 .pink span{
     margin-bottom: 20px;
     font-size: 14px;
 }
+/*....contact section....*/
+.contact-section{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+}
+.contact{
+    width: 70%;
+    margin:0 auto;
+    margin-right: 70px;
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    padding: 7px 30px;
+    margin: .5rem 0;
+    background: #f5edf2;
+    border-radius: .5rem;
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 70%;
+  }
+  .contact label{
+      font-size: 18px;
+      font-weight: bold;
+  }
+ .submit{
+     display: inline-block;
+     margin: 10px auto;
+     margin-left: 15%;
+ }
+:focus{
+    outline: none;
+}
+
+/*....footer section....*/
+footer{
+    border-top: 2px solid #eb4F90;;
+}
 footer .para{
     text-align: center;
-    padding-bottom: 30px;
+    padding: 20px 0;
+    margin: 0 auto;
 }
